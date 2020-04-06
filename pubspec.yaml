@@ -1,0 +1,7 @@
+name: dart-force
+description: A Dart library for Simulating Force
+version: 0.1.0
+homepage: https://github.com/enesdemirag/dart-force
+
+environment:
+  sdk: '>=2.6.0 <3.0.0'
