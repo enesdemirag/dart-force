@@ -1,5 +1,5 @@
 [![Language](https://img.shields.io/badge/language-Dart-blue.svg)](https://dart.dev)
-![stability-wip](https://img.shields.io/badge/stability-work_in_progress-orange.svg)
+[![Status](https://img.shields.io/badge/stability-work_in_progress-orange.svg)](https://github.com/enesdemirag)
 [![License](http://img.shields.io/:license-mit-green.svg)](http://enesdemirag.mit-license.org)
 
 
