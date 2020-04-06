@@ -17,7 +17,7 @@ sooo.. lets explain what those things are: :dart:
 * <b>Mass</b> is a measure of the amount of matter in the object.
 * <b>Acceleration</b> is the change in velocity over time.
 
-Lucky for us that google developers already implemented a huge library about vectors into dart, we can directly use [this awesome, well-documented, incredibly stable package](https://github.com/google/vector_math.dart) to make things easier. <b>But where is the fun in that :) so I decide to implement a very basic [vector class](#todo) from scratch just because i like to dirty my hands.</b> :wink:
+Lucky for us that google developers already implemented a huge library about vectors into dart, we can directly use [this awesome, well-documented, incredibly stable package](https://github.com/google/vector_math.dart) to make things easier. <b>But where is the fun in that :) so I decide to implement a very basic [vector class](lib/src/vector.dart) from scratch just because i like to dirty my hands.</b> :wink:
 
 ---
 
@@ -33,6 +33,10 @@ A long time ago in a galaxy far, far away.... there is a pale blue dot. :earth_a
 3. **For every action there is an equal and opposite reaction.**
     * This means that forces always occur in pairs. _The two forces are of equal strength, but in opposite directions._
     * So if we calculate a Vector **v** that is a force of object **A** on object **B**, we must also apply the force **-v** that B exerts on object A.
+
+<!-- To make this implemetation even more simple, I work with  -->
+
+
 
 ---
 
