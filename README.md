@@ -36,7 +36,7 @@ A long time ago in a galaxy far, far away.... there is a pale blue dot. :earth_a
 
 ---
 
-I'm terrible with visualizing things. But at least I added some example and they prints real-time position, velocity and acceleration of the objects.
+I'm terrible with visualizing things. But at least I added some example and they print real-time position, velocity and acceleration of the objects.
 
 ### Gravitational Force
 
