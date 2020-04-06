@@ -30,4 +30,16 @@ class Vector {
   num length() => utils.mag(x, y, z);
   num dot(Vector v) => x * v.x + y * v.y + z * v.z;
   Vector cross(Vector v) => new Vector((y * v.z - z * v.y), (z * v.x - x * v.z), (x * v.y - y * v.x));
+  bool equals(Vector v) {
+    if((this.x == v.x) && (this.y == v.y) && (this.z == v.z)) {return true;}
+    else {return false;}
+  }
+
+  // Operators
+  Vector operator+(Vector v) => new Vector(x + v.x, y + v.y, z + v.z);
+  Vector operator-(Vector v) => new Vector(x - v.x, y - v.y, z - v.z);
+  
+  Vector operator*(num k) => new Vector(x * k, y * k, z * k);
+  Vector operator/(num k) => this * (1 / k);
+  Vector operator%(num k) => new Vector(x % k, y % k, z % k);
 }
