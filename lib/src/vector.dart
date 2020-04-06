@@ -31,31 +31,3 @@ class Vector {
   num dot(Vector v) => x * v.x + y * v.y + z * v.z;
   Vector cross(Vector v) => new Vector((y * v.z - z * v.y), (z * v.x - x * v.z), (x * v.y - y * v.x));
 }
-
-class Vector2D {
-  // Values
-  num x, y;
-
-  // Constructors
-  Vector2D(this.x, this.y);
-
-  // Named Constructors
-  Vector2D.zero() : this(0, 0);
-  Vector2D.x(num x) : this(x, 0);
-  Vector2D.y(num y) : this(0, y);
-
-  Vector2D.unit(num x, num y) {
-    num mag2D = utils.mag(x, y);
-    this.x = x / mag2D;
-    this.y = y / mag2D;
-  }
-
-  Vector2D.random({num min = -1, num max = 1}) {
-    this.x = utils.random(min, max);
-    this.y = utils.random(min, max);
-  }
-
-  // Methods
-  num length() => utils.mag(x, y);
-  num dot(Vector2D v) => x * v.x + y * v.y;
-}
