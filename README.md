@@ -1,3 +1,8 @@
+[![Language](https://img.shields.io/badge/language-Dart-blue.svg)](https://dart.dev)
+![stability-wip](https://img.shields.io/badge/stability-work_in_progress-orange.svg)
+[![License](http://img.shields.io/:license-mit-green.svg)](http://enesdemirag.mit-license.org)
+
+
 # dart-force
 ```A Dart library for Simulating Force```
 
@@ -56,5 +61,5 @@ todo
 
 ---
 
-> <b>Note:</b> I created this repo as an exercise while learning Dart Programming. Writing this library was very fun. I get help from [Dan's](https://github.com/shiffman) [awesome book :notebook:](https://natureofcode.com/book/chapter-2-forces/). There are also other (probably even better) implementations like [this](https://api.flutter.dev/flutter/physics/physics-library.html). If you found a mistake or have any advice feel free to open an issue, fork, contribute... 
+> <b>Note:</b> I created this repo as an exercise while learning Dart Programming. Writing this library was very fun. I got help from [Dan's](https://github.com/shiffman) [awesome book :notebook:](https://natureofcode.com/book/chapter-2-forces/). There are also other (probably even better) implementations like [this](https://api.flutter.dev/flutter/physics/physics-library.html) and [this](https://github.com/bisrael/Phart). If you found a mistake or have any advice feel free to open an issue, fork, contribute... 
 
