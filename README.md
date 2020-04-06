@@ -39,25 +39,16 @@ A long time ago in a galaxy far, far away.... there is a pale blue dot. :earth_a
     * This means that forces always occur in pairs. _The two forces are of equal strength, but in opposite directions._
     * So if we calculate a Vector **v** that is a force of object **A** on object **B**, we must also apply the force **-v** that B exerts on object A.
 
-<!-- To make this implemetation even more simple, I work with  -->
-
-
-
----
-
-I'm terrible with visualizing things. But at least I added some example and they print real-time position, velocity and acceleration of the objects.
+<!-- I'm terrible with visualizing things. But at least I added some example and they print real-time position, velocity and acceleration of the objects.
 
 ### Gravitational Force
-
 todo
 
 ### Wind Force
-
 todo
 
 ### Friction Force
-
-todo
+todo -->
 
 ---
 
