@@ -1,5 +1,5 @@
 [![Language](https://img.shields.io/badge/language-Dart-blue.svg)](https://dart.dev)
-[![Status](https://img.shields.io/badge/stability-work_in_progress-orange.svg)](https://github.com/enesdemirag)
+[![Status](https://img.shields.io/badge/status-stopped-red.svg)](https://github.com/enesdemirag)
 [![License](http://img.shields.io/:license-mit-green.svg)](http://enesdemirag.mit-license.org)
 
 
@@ -39,11 +39,9 @@ A long time ago in a galaxy far, far away.... there is a pale blue dot. :earth_a
     * This means that forces always occur in pairs. _The two forces are of equal strength, but in opposite directions._
     * So if we calculate a Vector **v** that is a force of object **A** on object **B**, we must also apply the force **-v** that B exerts on object A.
 
-<!-- I'm terrible with visualizing things. But at least I added some example and they print real-time position, velocity and acceleration of the objects.
-
-gravitational attraction, wind, friction, fluid resistance, drag, tension... -->
-
 ---
 
-> <b>Note:</b> I created this repo as an exercise while learning Dart Programming. Writing this library was very fun. I got help from [Dan's](https://github.com/shiffman) [awesome book :notebook:](https://natureofcode.com/book/chapter-2-forces/). There are also other (probably even better) implementations like [this](https://api.flutter.dev/flutter/physics/physics-library.html) and [this](https://github.com/bisrael/Phart). If you found a mistake or have any advice feel free to open an issue, fork, contribute... 
+> <b>Note:</b> I got help from [Dan's](https://github.com/shiffman) [awesome book :notebook:](https://natureofcode.com/book/chapter-2-forces/). I created this repo as an exercise while learning Dart Programming. <i><b>Then I got bored and stopped writing.</b></i> :sleeping: So you have only this fun README. 
+
+> There are great implementations such as [this](https://api.flutter.dev/flutter/physics/physics-library.html) and [this](https://github.com/bisrael/Phart). If you found any mistake feel free to open an issue, fork, contribute... or just go find another one.
 
